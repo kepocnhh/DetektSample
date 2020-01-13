@@ -27,7 +27,7 @@ detekt {
 
     input = files("src/main/kotlin")
 
-    config = files("src/main/resources/detekt/config.yml")
+    config = files("config.yml")
 
     reports {
         html {

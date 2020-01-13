@@ -7,7 +7,7 @@ processors:
 potential-bugs:
   active: true
   Deprecation:
-    active: false #todo https://github.com/arturbosch/detekt/issues/2038
+    active: true #todo https://github.com/arturbosch/detekt/issues/2038
   DuplicateCaseInWhenExpression:
     active: true
   EqualsAlwaysReturnsTrueOrFalse:
@@ -17,7 +17,7 @@ potential-bugs:
   ExplicitGarbageCollectionCall:
     active: true
   HasPlatformType:
-    active: false #todo https://github.com/arturbosch/detekt/issues/2042
+    active: true #todo https://github.com/arturbosch/detekt/issues/2042
   InvalidRange:
     active: true
   IteratorHasNextCallsNextMethod:
@@ -30,17 +30,17 @@ potential-bugs:
     excludeAnnotatedProperties: ""
     ignoreOnClassesPattern: "" #todo
   MissingWhenCase:
-    active: false #todo https://github.com/arturbosch/detekt/issues/2041
+    active: true #todo https://github.com/arturbosch/detekt/issues/2041
   RedundantElseInWhen:
-    active: fasle #todo https://github.com/arturbosch/detekt/issues/2041
+    active: true #todo https://github.com/arturbosch/detekt/issues/2041
   UnconditionalJumpStatementInLoop:
     active: true
   UnreachableCode:
     active: true
   UnsafeCallOnNullableType:
-    active: false #todo https://github.com/arturbosch/detekt/issues/2043
+    active: true #todo https://github.com/arturbosch/detekt/issues/2043
   UnsafeCast:
-    active: false #todo https://github.com/arturbosch/detekt/issues/2043
+    active: true #todo https://github.com/arturbosch/detekt/issues/2043
   UselessPostfixExpression:
     active: true
   WrongEqualsTypeParameter:
